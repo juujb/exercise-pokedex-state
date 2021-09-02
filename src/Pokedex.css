@@ -1,0 +1,28 @@
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.prox-pokemon {
+  align-self: center;
+  padding: 30px;
+  width: 90%;
+  border-radius: 7px;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-content: center;
+}
