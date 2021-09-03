@@ -1,3 +1,52 @@
-.App {
-  text-align: center;
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.prox-pokemon {
+  align-self: center;
+  margin: 10px;
+  padding: 30px;
+  width: 300px;
+  border-radius: 7px;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+}
+
+.prox-pokemon:disabled {
+  background-color: grey;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-content: center;
+}
+
+.types {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.pokemon-type {
+  align-self: center;
+  margin: 10px;
+  padding: 30px;
+  width: 200px;
+  border-radius: 7px;
+  background-color: yellow;
+  font-weight: 700;
 }

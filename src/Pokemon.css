@@ -1,0 +1,28 @@
+.pokemon {
+  display: flex;
+  width: 300px;
+  margin: 5%;
+  justify-content: space-between;
+  border: 2px solid lightblue;
+  border-radius: 3%;
+}
+
+.info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+  word-wrap: normal;
+  font-size: 120%;
+  align-self: center;
+}
+
+.sprite {
+  width: 40%;
+}
